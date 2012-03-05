@@ -1,12 +1,12 @@
 <layer>
-  <name>observations_faultsource</name>
-  <id>LayerInfoImpl--46156a60:133eff03b13:-7b58</id>
+  <name>example</name>
+  <id>LayerInfoImpl--2df1c5d2:135e2c548af:-7fec</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl--46156a60:133eff03b13:-7b2c</id>
+    <id>StyleInfoImpl--35ab71e8:1339423b7c4:-7ffc</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--46156a60:133eff03b13:-7b59</id>
+    <id>FeatureTypeInfoImpl--2df1c5d2:135e2c548af:-7fed</id>
   </resource>
   <enabled>true</enabled>
   <queryable>true</queryable>
