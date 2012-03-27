@@ -1,11 +1,11 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--46156a60:133eff03b13:-7b59</id>
-  <name>observations_faultsource</name>
-  <nativeName>observations_faultsource</nativeName>
+  <id>FeatureTypeInfoImpl-2e2377f3:136536dfbc1:-7fec</id>
+  <name>country_facts_1990</name>
+  <nativeName>gadm_country_facts_90</nativeName>
   <namespace>
-    <id>NamespaceInfoImpl-5436e90e:124760c23c4:-7ffe</id>
+    <id>NamespaceInfoImpl-2e2377f3:136536dfbc1:-7ffe</id>
   </namespace>
-  <title>observations_faultsource</title>
+  <title>gadm_country_facts_90</title>
   <abstract>No abstract provided</abstract>
   <keywords>
     <string></string>
@@ -14,7 +14,7 @@
     <metadataLink>
       <type>text/xml</type>
       <metadataType>TC211</metadataType>
-      <content>http://178.79.185.190/geonetwork/srv/en/csw?outputschema=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&amp;service=CSW&amp;request=GetRecordById&amp;version=2.0.2&amp;elementsetname=full&amp;id=fe8d4f59-cf43-47f6-86c4-6c6db1034d1a</content>
+      <content>http://178.79.185.190/geonetwork/srv/en/csw?outputschema=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&amp;service=CSW&amp;request=GetRecordById&amp;version=2.0.2&amp;elementsetname=full&amp;id=a44e8171-72f0-4839-b460-afdaa4969277</content>
     </metadataLink>
   </metadataLinks>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
@@ -28,16 +28,17 @@
   AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
   <srs>EPSG:4326</srs>
   <nativeBoundingBox>
-    <minx>-180.0</minx>
+    <minx>-179.991</minx>
     <maxx>180.0</maxx>
-    <miny>-90.0</miny>
-    <maxy>90.0</maxy>
+    <miny>-55.984</miny>
+    <maxy>83.627</maxy>
+    <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
-    <minx>-180.0</minx>
+    <minx>-179.991</minx>
     <maxx>180.0</maxx>
-    <miny>-90.0</miny>
-    <maxy>90.0</maxy>
+    <miny>-55.984</miny>
+    <maxy>83.627</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
   <projectionPolicy>FORCE_DECLARED</projectionPolicy>
@@ -47,7 +48,7 @@
     <entry key="advertised">true</entry>
   </metadata>
   <store class="dataStore">
-    <id>DataStoreInfoImpl-18460fa7:133ebc1aee7:-7fff</id>
+    <id>DataStoreInfoImpl-2e2377f3:136536dfbc1:-7ffd</id>
   </store>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>

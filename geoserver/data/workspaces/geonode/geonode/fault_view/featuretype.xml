@@ -14,7 +14,7 @@
     <metadataLink>
       <type>text/xml</type>
       <metadataType>TC211</metadataType>
-      <content>http://178.79.187.26/geonetwork/srv/en/csw?outputschema=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&amp;service=CSW&amp;request=GetRecordById&amp;version=2.0.2&amp;elementsetname=full&amp;id=ea7fddfa-059e-4e80-9793-b1ba5f2cc65b</content>
+      <content>http://178.79.185.190/geonetwork/srv/en/csw?outputschema=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&amp;service=CSW&amp;request=GetRecordById&amp;version=2.0.2&amp;elementsetname=full&amp;id=393942c6-139e-4ef8-9522-5316f55b9118</content>
     </metadataLink>
   </metadataLinks>
   <srs>EPSG:4326</srs>
