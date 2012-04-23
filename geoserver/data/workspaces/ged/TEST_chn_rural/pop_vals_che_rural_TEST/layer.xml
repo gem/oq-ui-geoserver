@@ -1,0 +1,28 @@
+<layer>
+  <name>pop_vals_che_rural_TEST</name>
+  <id>LayerInfoImpl--7a9cd524:136bb31732a:-7943</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--7a9cd524:136bb31732a:-794f</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--7a9cd524:136bb31732a:-7944</id>
+  </resource>
+  <enabled>true</enabled>
+  <queryable>true</queryable>
+  <metadata>
+    <entry key="GWC.autoCacheStyles">true</entry>
+    <entry key="GWC.metaTilingX">4</entry>
+    <entry key="GWC.metaTilingY">4</entry>
+    <entry key="GWC.gutter">0</entry>
+    <entry key="advertised">true</entry>
+    <entry key="GWC.enabled">true</entry>
+    <entry key="GWC.cacheFormats">image/jpeg,image/png</entry>
+    <entry key="GWC.gridSets">EPSG:4326,EPSG:900913</entry>
+  </metadata>
+  <attribution>
+    <title>ben</title>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

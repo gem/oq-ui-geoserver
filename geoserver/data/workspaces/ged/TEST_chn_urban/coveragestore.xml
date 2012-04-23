@@ -1,0 +1,11 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl--7a9cd524:136bb31732a:-794e</id>
+  <name>TEST_chn_urban</name>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-2e2377f3:136536dfbc1:-7fff</id>
+  </workspace>
+  <__default>false</__default>
+  <url>file:data/Geotiffs/pop_vals_chn_urban.tif</url>
+</coverageStore>
