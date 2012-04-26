@@ -1,11 +1,11 @@
 <featureType>
-  <id>FeatureTypeInfoImpl--3b4f01f9:133f9209de1:-7fbf</id>
-  <name>observations_fault</name>
-  <nativeName>observations_fault</nativeName>
+  <id>FeatureTypeInfoImpl-1aca7038:136e4c494b4:-7fe9</id>
+  <name>geodetic_geodetic</name>
+  <nativeName>geodetic_geodetic</nativeName>
   <namespace>
-    <id>NamespaceInfoImpl-5436e90e:124760c23c4:-7ffe</id>
+    <id>NamespaceInfoImpl--2df1c5d2:135e2c548af:-7fef</id>
   </namespace>
-  <title>observations_fault</title>
+  <title>geodetic_geodetic</title>
   <abstract>No abstract provided</abstract>
   <keywords>
     <string></string>
@@ -14,7 +14,7 @@
     <metadataLink>
       <type>text/xml</type>
       <metadataType>TC211</metadataType>
-      <content>http://178.79.187.26/geonetwork/srv/en/csw?outputschema=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&amp;service=CSW&amp;request=GetRecordById&amp;version=2.0.2&amp;elementsetname=full&amp;id=37c02df8-7e67-4b72-8e64-4b18d9c5c401</content>
+      <content>http://178.79.187.26/geonetwork/srv/en/csw?outputschema=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&amp;service=CSW&amp;request=GetRecordById&amp;version=2.0.2&amp;elementsetname=full&amp;id=e016e2cf-3f69-42ac-9b89-d96735eacc23</content>
     </metadataLink>
   </metadataLinks>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
@@ -32,6 +32,7 @@
     <maxx>180.0</maxx>
     <miny>-90.0</miny>
     <maxy>90.0</maxy>
+    <crs>EPSG:4326</crs>
   </nativeBoundingBox>
   <latLonBoundingBox>
     <minx>-180.0</minx>
@@ -47,7 +48,7 @@
     <entry key="advertised">true</entry>
   </metadata>
   <store class="dataStore">
-    <id>DataStoreInfoImpl-18460fa7:133ebc1aee7:-7fff</id>
+    <id>DataStoreInfoImpl--2df1c5d2:135e2c548af:-7fee</id>
   </store>
   <maxFeatures>0</maxFeatures>
   <numDecimals>0</numDecimals>

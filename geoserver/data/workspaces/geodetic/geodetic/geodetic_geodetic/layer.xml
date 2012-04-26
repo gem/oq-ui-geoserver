@@ -1,24 +1,24 @@
 <layer>
-  <name>WellingtonFaultTraces</name>
-  <id>LayerInfoImpl--d2e15f4:136401fab5d:-7fd8</id>
+  <name>geodetic_geodetic</name>
+  <id>LayerInfoImpl-1aca7038:136e4c494b4:-7fe8</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl-5436e90e:124760c23c4:-7ffc</id>
+    <id>StyleInfoImpl--35ab71e8:1339423b7c4:-7ffc</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl--d2e15f4:136401fab5d:-7fd9</id>
+    <id>FeatureTypeInfoImpl-1aca7038:136e4c494b4:-7fe9</id>
   </resource>
   <enabled>true</enabled>
   <queryable>true</queryable>
   <metadata>
-    <entry key="GWC.autoCacheStyles">true</entry>
     <entry key="GWC.metaTilingX">4</entry>
+    <entry key="GWC.autoCacheStyles">true</entry>
     <entry key="GWC.metaTilingY">4</entry>
     <entry key="GWC.gutter">0</entry>
     <entry key="advertised">true</entry>
     <entry key="GWC.enabled">true</entry>
-    <entry key="GWC.cacheFormats">image/jpeg,image/png</entry>
     <entry key="GWC.gridSets">EPSG:4326,EPSG:900913</entry>
+    <entry key="GWC.cacheFormats">image/jpeg,image/png</entry>
   </metadata>
   <attribution>
     <title>ben</title>
