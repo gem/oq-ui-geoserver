@@ -1,11 +1,11 @@
 <featureType>
-  <id>FeatureTypeInfoImpl-2e2377f3:136536dfbc1:-7ff0</id>
+  <id>FeatureTypeInfoImpl-1aca7038:136e4c494b4:-7ff5</id>
   <name>country_facts_2010</name>
-  <nativeName>gadm_country_facts_10</nativeName>
+  <nativeName>ged4gem_gadm_country_facts_10</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-2e2377f3:136536dfbc1:-7ffe</id>
   </namespace>
-  <title>gadm_country_facts_10</title>
+  <title>country_facts_2010</title>
   <abstract>No abstract provided</abstract>
   <keywords>
     <string></string>
@@ -14,7 +14,7 @@
     <metadataLink>
       <type>text/xml</type>
       <metadataType>TC211</metadataType>
-      <content>http://178.79.185.190/geonetwork/srv/en/csw?outputschema=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&amp;service=CSW&amp;request=GetRecordById&amp;version=2.0.2&amp;elementsetname=full&amp;id=f32e4ac3-bea7-455f-900e-169554963d1b</content>
+      <content>http://178.79.187.26/geonetwork/srv/en/csw?outputschema=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd&amp;service=CSW&amp;request=GetRecordById&amp;version=2.0.2&amp;elementsetname=full&amp;id=8f0eb3c8-bd1d-469e-bb44-e16ac276e47e</content>
     </metadataLink>
   </metadataLinks>
   <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 

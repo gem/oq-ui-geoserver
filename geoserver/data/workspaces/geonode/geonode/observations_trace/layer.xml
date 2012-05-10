@@ -1,12 +1,12 @@
 <layer>
   <name>observations_trace</name>
-  <id>LayerInfoImpl-18460fa7:133ebc1aee7:-7ff4</id>
+  <id>LayerInfoImpl--37a7424a:1369cd9a638:-78a4</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl--35ab71e8:1339423b7c4:-7ffe</id>
+    <id>StyleInfoImpl-5436e90e:124760c23c4:-7ffc</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-18460fa7:133ebc1aee7:-7ff5</id>
+    <id>FeatureTypeInfoImpl--37a7424a:1369cd9a638:-78a5</id>
   </resource>
   <enabled>true</enabled>
   <queryable>true</queryable>
