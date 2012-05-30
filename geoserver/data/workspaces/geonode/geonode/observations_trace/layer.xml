@@ -3,7 +3,7 @@
   <id>LayerInfoImpl-47274c66:13759e78905:-7ffe</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl-5436e90e:124760c23c4:-7ffc</id>
+    <id>StyleInfoImpl--35ab71e8:1339423b7c4:-7ffe</id>
   </defaultStyle>
   <resource class="featureType">
     <id>FeatureTypeInfoImpl-47274c66:13759e78905:-7fff</id>
@@ -21,7 +21,7 @@
     <entry key="GWC.gridSets">EPSG:4326,EPSG:900913</entry>
   </metadata>
   <attribution>
-    <title>nastasi</title>
+    <title>ben</title>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
