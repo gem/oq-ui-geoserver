@@ -12,24 +12,24 @@ def usage(name, ret):
     sys.exit(ret)
 
 def add_or_repl(doc, name, value):
-        matcs = doc.xpath("//dataStore/connectionParameters/entry[@key='%s']" % name);
+    matcs = doc.xpath("//dataStore/connectionParameters/entry[@key='%s']" % name);
 
-        if len(matcs) > 1:
-            print "wrong number of passwd tags into [%s] file" % fname
+    if len(matcs) > 1:
+        print "wrong number of passwd tags into [%s] file" % fname
+        sys.exit(1)
+
+    elif len(matcs) == 1:
+        matc = matcs[0]
+        matc.text = value
+
+    else:
+        matcs = doc.xpath("//dataStore/connectionParameters");
+        if len(matcs) != 1:
+            print "wrong number of connectionParameters tags into [%s] file" % fname
             sys.exit(1)
-
-        elif len(matcs) == 1:
-            matc = matcs[0]
-            matc.text = value
-
-        else:
-            matcs = doc.xpath("//dataStore/connectionParameters");
-            if len(matcs) != 1:
-                print "wrong number of connectionParameters tags into [%s] file" % fname
-                sys.exit(1)
-            matc = matcs[0]
-            newel = etree.SubElement(matc, "entry", key=name)
-            newel.text = value
+        matc = matcs[0]
+        newel = etree.SubElement(matc, "entry", key=name)
+        newel.text = value
     return
 
 
