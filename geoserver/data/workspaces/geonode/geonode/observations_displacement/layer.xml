@@ -1,12 +1,12 @@
 <layer>
   <name>observations_displacement</name>
-  <id>LayerInfoImpl-18460fa7:133ebc1aee7:-7ff2</id>
+  <id>LayerInfoImpl-2012a2e1:1389bd3e718:-7ffe</id>
   <type>VECTOR</type>
   <defaultStyle>
-    <id>StyleInfoImpl--35ab71e8:1339423b7c4:-7ffc</id>
+    <id>StyleInfoImpl-5436e90e:124760c23c4:-7ff9</id>
   </defaultStyle>
   <resource class="featureType">
-    <id>FeatureTypeInfoImpl-18460fa7:133ebc1aee7:-7ff3</id>
+    <id>FeatureTypeInfoImpl-2012a2e1:1389bd3e718:-7fff</id>
   </resource>
   <enabled>true</enabled>
   <queryable>true</queryable>
@@ -21,7 +21,7 @@
     <entry key="GWC.cacheFormats">image/jpeg,image/png</entry>
   </metadata>
   <attribution>
-    <title>ben</title>
+    <title>geonode</title>
     <logoWidth>0</logoWidth>
     <logoHeight>0</logoHeight>
   </attribution>
