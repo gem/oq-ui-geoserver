@@ -1,11 +1,11 @@
 <featureType>
   <id>FeatureTypeInfoImpl-18460fa7:133ebc1aee7:-7ff3</id>
-  <name>observations_siteobservation</name>
-  <nativeName>observations_siteobservation</nativeName>
+  <name>observations_displacement</name>
+  <nativeName>observations_displacement</nativeName>
   <namespace>
     <id>NamespaceInfoImpl-5436e90e:124760c23c4:-7ffe</id>
   </namespace>
-  <title>observations_siteobservation</title>
+  <title>observations_displacement</title>
   <abstract>No abstract provided</abstract>
   <keywords>
     <string></string>
