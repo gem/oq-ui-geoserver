@@ -48,7 +48,7 @@
     <entry key="JDBC_VIRTUAL_TABLE">
       <virtualTable>
         <name>geonode_fault_summary_view_test2</name>
-        <sql>SELECT fault_name, length_min, length_max, length_pre, strike, episodi_is, episodi_ac, u_sm_d_min, u_sm_d_max, u_sm_d_pre, u_sm_d_com, low_d_min, low_d_max, low_d_pref, low_d_com, dip_min, dip_max, dip_pref, dip_com, dip_dir, down_thro, slip_typ, slip_r_min, slip_r_max, slip_r_pre, slip_com, aseis_slip, aseis_com, dis_min, dis_max, dis_pref, re_int_min, re_int_max, re_int_pre, mov_min, mov_max, mov_pref, all_com, compiler, contrib, created, geom&#xd;
+        <sql>SELECT fault_name, length_min, length_max, length_pre, strike, episodic_behaviour, u_sm_d_min, u_sm_d_max, u_sm_d_pre, u_sm_d_com, low_d_min, low_d_max, low_d_pref, low_d_com, dip_min, dip_max, dip_pref, dip_com, dip_dir, down_thro, slip_typ, slip_r_min, slip_r_max, slip_r_pre, slip_com, aseis_slip, aseis_com, dis_min, dis_max, dis_pref, re_int_min, re_int_max, re_int_pre, mov_min, mov_max, mov_pref, all_com, compiler, contrib, created, geom&#xd;
     FROM gem.fault_view</sql>
         <geometry>
           <name>geom</name>
