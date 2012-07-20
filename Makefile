@@ -1,6 +1,6 @@
 SITE_HOST=$(shell grep -w '^SITEURL' /etc/geonode/local_settings.py | sed 's@.*http://@@g;s@/.*@@g')
 GEM_BASEDIR?=/var/lib/openquake/
-GEM_TMPDIR?=/tmp
+GEM_TMPDIR=/tmp
 BASE_INST_DIR=$(GEM_BASEDIR)oq-ui-geoserver/
 
 BASE_SRC_DIR=
