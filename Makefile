@@ -23,5 +23,9 @@ postinst:
 template:
 	./bin/geoserver-xml-mangler.py template $$(find "$(BASE_SRC_DIR)geoserver/data/workspaces/" -type f -name datastore.xml | grep -v "$(BASE_SRC_DIR)geoserver/data/workspaces/temp")
 
-.PHONY: deploy install postinst template debugvars
+populate:
+	<cmd1>
+	<cmd2>
+
+.PHONY: deploy install postinst template debugvars populate
 
