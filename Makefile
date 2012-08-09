@@ -28,7 +28,7 @@ populate:
 
 	curl --header "Content-Type: application/vnd.ogc.sld+xml" -v -d @data/styles/geodetic.sld -u $(GEM_DJANGO_SUSER):$(GEM_DJANGO_SPASS) -X PUT http://$(SITE_HOST):8080/geoserver/rest/styles/geodetic.sld
 
-	curl -u $(GEM_DJANGO_SUSER):$(GEM_DJANGO_SPASS) -XPUT -H 'Content-type: text/xml' -d '<layer><defaultStyle><name>geodetic</name></defaultStyle></layer>'http://$(SITE_HOST):8080/geoserver/rest/layers/geodetic_geodetic
+	curl -u $(GEM_DJANGO_SUSER):$(GEM_DJANGO_SPASS) -XPUT -H 'Content-type: text/xml' -d '<layer><defaultStyle><name>geodetic</name></defaultStyle></layer>' http://$(SITE_HOST):8080/geoserver/rest/layers/geodetic_geodetic
 
 .PHONY: deploy install postinst template debugvars populate
 
