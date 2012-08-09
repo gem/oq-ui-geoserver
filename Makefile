@@ -24,11 +24,11 @@ template:
 	./bin/geoserver-xml-mangler.py template $$(find "$(BASE_SRC_DIR)geoserver/data/workspaces/" -type f -name datastore.xml | grep -v "$(BASE_SRC_DIR)geoserver/data/workspaces/temp")
 
 populate:
-	curl --header "Content-Type: text/xml" -v -d @data/styles/geodetic.xml -u $USER:$PASS -X POST http://$SITE_HOST:8080/geoserver/rest/styles
+	curl --header "Content-Type: text/xml" -v -d @data/styles/geodetic.xml -u $GEM_DJANGO_SUSER:$GEM_DJANGO_SPASS -X POST http://$SITE_HOST:8080/geoserver/rest/styles
 
-	curl --header "Content-Type: application/vnd.ogc.sld+xml" -v -d @data/styles/geodetic.sld -u $USER:$PASS -X PUT http://$SITE_HOST:8080/geoserver/rest/styles/geodetic.sld
+	curl --header "Content-Type: application/vnd.ogc.sld+xml" -v -d @data/styles/geodetic.sld -u $GEM_DJANGO_SUSER:$GEM_DJANGO_SPASS -X PUT http://$SITE_HOST:8080/geoserver/rest/styles/geodetic.sld
 
-	curl -u NAME:PASS -XPUT -H 'Content-type: text/xml' -d '<layer><defaultStyle><name>geodetic</name></defaultStyle></layer>'http://SITE_HOST:8080/geoserver/rest/layers/geodetic_geodetic
+	curl -u GEM_DJANGO_SUSER:GEM_DJANGO_SPASS -XPUT -H 'Content-type: text/xml' -d '<layer><defaultStyle><name>geodetic</name></defaultStyle></layer>'http://SITE_HOST:8080/geoserver/rest/layers/geodetic_geodetic
 
 .PHONY: deploy install postinst template debugvars populate
 
